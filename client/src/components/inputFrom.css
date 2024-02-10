@@ -1,0 +1,92 @@
+.inputFormMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #303b52;
+    padding: 2vh 1vw;
+    border-radius: 1rem;
+}
+
+.form1Heading {
+    font-weight: bold;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 2vh 1vw;
+    width: 100%;
+}
+
+.inputLongURl {
+    display: flex;
+    width: 100%;
+    padding: 1.5vh 1vw;
+    background-color: #303b52;
+    color: white;
+    border: 0.01vh solid white;
+    border-radius: 0.5rem;
+}
+
+.input1Indicator {
+    color: #8399b1;
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 1vw;
+    width: 100%;
+    column-gap: 1vw;
+}
+
+.inputShortUrl {
+    display: flex;
+    width: 100%;
+    padding: 1.5vh 1vw;
+    background-color: #303b52;
+    color: white;
+    border: 0.01vh solid white;
+    border-radius: 0.5rem;
+}
+
+.submitButton {
+    /* Add styles for Button */
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0.5rem;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    border: white;
+}
+
+.responseDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 1vw;
+    width: 100%;
+    column-gap: 1vw;
+}
+
+.copyButton {
+    /* Add styles for Button */
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0.5rem;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+.copyButton:hover {
+    border: white;
+}
